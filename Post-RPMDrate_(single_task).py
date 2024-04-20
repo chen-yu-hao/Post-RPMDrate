@@ -50,7 +50,7 @@ parser = argparse.ArgumentParser()
 parser.description='please enter two parameters t for temperature n for number of beads...'
 parser.add_argument("-t", "--t", help="this is parameter t", dest="T", type=str, default="1000")
 parser.add_argument("-n", "--n", help="this is parameter n",dest="N",  type=str, default="64")
-parser.add_argument("-i", "--input", help="path of the input.py",dest="I",  type=str, default="input_last.py")
+parser.add_argument("-i", "--input", help="path of the input.py",dest="I",  type=str, default="input.py")
 parser.add_argument("-R", "--RPMDpath", help="this is parameter n",dest="R",  type=str, default="./")
 args = parser.parse_args()
 import os
