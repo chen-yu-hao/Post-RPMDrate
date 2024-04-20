@@ -1,1 +1,1 @@
-run `python `
+Run `python Post-RPMDrate_(single_task).py -t tem -n Nbeads` to start plotting, replacing tem and Nbeads with temperature and number of beads, the figure will be saved by default to . /tem_Nbeads folder
